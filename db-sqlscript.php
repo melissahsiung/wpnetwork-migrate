@@ -48,7 +48,7 @@ $sqlQuery = "
 // update blog tables
 for ($i=0; $i < $numChildSites; $i++) {
    $blogID = $i+2;
-   $blogTable = // "{$blogID} says hi<br>";
+   $blogTable = 
       "UPDATE `{$dbName}`.`wp_{$blogID}_options` 
          SET `option_value` = REPLACE(`option_value`, '{$oldDomain}', '{$newDomain}') 
          WHERE `wp_{$blogID}_options`.`option_name` = 'siteurl';

@@ -15,7 +15,8 @@ a php script for updating the domain when migrating a WordPress multisite instal
 ## How to use this script
 - Change the variables in the script 
 - Run it
-- Copy the output, paste it as a SQL query in phpMyAdmin
+- Check the SQL output
+- If it looks good, run it (you can copy it, paste it as a SQL query in phpMyAdmin)
 
 More details on all the other stuff you have to do:
 http://melissahsiung.com/cloning-wordpress-multisite/

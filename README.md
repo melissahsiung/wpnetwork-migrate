@@ -1,5 +1,8 @@
 # wpnetwork-migrate
-a php script for updating the domain when migrating a WordPress multisite installation
+A php script for updating the domain when migrating a WordPress multisite installation.
+This will get all WP generated links and dashboards working for a subfolder network. 
+Your url structure must be the same in both installations.
+This does not (yet) update links in post content or plugin data. 
 
 ## Warnings!
 - This has only been tested (once) on a multisite installation with subfolders
@@ -23,8 +26,8 @@ http://melissahsiung.com/cloning-wordpress-multisite/
 
 
 ## Future plans
-- Make a form for the vars
-- Connect/modify the db
+- Make a form for the vars & display the output w/a copy button
+- Connect/modify the db & have a run button
 - Clean up content/media links
 
 ## Log
